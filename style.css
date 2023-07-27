@@ -7,10 +7,10 @@ body {
   padding: 10px;
   margin: 10px;
   /*background-image: url('imgs/pinkgradientbackground.png');*/
- background-color:  #ffebee;
+  background-color:  #ffebee;
   color: var(--font-color) !important;
     
- 
+  background-color: var(--bg-color) !important;
 
   /* Center and scale the image nicely */
   background-position: center;
@@ -24,14 +24,20 @@ body {
     --nav-color: rgb(254, 164, 217);
     --font-color: #4203a0; 
     /*--font-color: #6a34fe;*/
+    .exp {
+      --bg-color: rgb(255, 194, 229);
+    }
 }
 
 [data-theme="dark"] {
    
     --hover-color: #111;
-    --bg-color: #2a2a2a;
+    --bg-color: #623993;
     --nav-color: #333;
     --font-color: white;
+    .exp {
+      --bg-color: #b054a9;
+    }
 }
 
 
@@ -79,7 +85,7 @@ li {
 
 li a {
   display: block;
-  
+  color: #9875ff;
   text-align: center;
   padding: 20px 25px;
   text-decoration: none;
@@ -90,6 +96,7 @@ li a {
 
 li a:hover:not(.active) {
   background-color: #ff9e9e;
+  
 }
 li a img {
   height:5%;
@@ -199,11 +206,11 @@ h5{
 }
 .exp{
   box-shadow: 0 8px 30px 0 rgba(0, 0, 0, 0.2), 0 10px 40px 0 rgba(0, 0, 0, 0.19);
-  background-color: rgb(255, 194, 229);
+  
   /*background-color: rgb(193, 118, 254);
   background-color: rgb(199, 143, 255);
   background-color: rgb(228, 190, 249);*/
-  
+  background-color: var(--bg-color) !important;
   
   padding: 10px;
   margin-top:30px;
@@ -252,7 +259,7 @@ h5{
   clear: both;
 }
 
-.action{
+.action, .action2, .action3, .action4{
   visibility: hidden;
 }
 button{
