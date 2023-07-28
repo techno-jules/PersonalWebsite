@@ -1,4 +1,4 @@
-#PersonalWebsite
+# PersonalWebsite
 Used dark/light mode icon from https://www.svgrepo.com/svg/309493/dark-theme.
 
 Python Flask ReplAuth
