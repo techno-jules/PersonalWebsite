@@ -1,4 +1,7 @@
-# Python Flask ReplAuth
+#PersonalWebsite
+Used dark/light mode icon from https://www.svgrepo.com/svg/309493/dark-theme.
+
+Python Flask ReplAuth
 
 Using the ReplAuth with Flask is super easy! First we create a new Flask app: 
 
