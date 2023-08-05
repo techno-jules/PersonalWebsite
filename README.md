@@ -1,4 +1,4 @@
-# PersonalWebsite
+# Julia H PersonalWebsite
 Used dark/light mode icon from https://www.svgrepo.com/svg/309493/dark-theme.
 Used icons/symbols from https://www.i2symbol.com/symbols/write.
 
